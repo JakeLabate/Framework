@@ -40,7 +40,7 @@ Ex:
 ### Tasks
 #### Task Prioritization Framework
 
-Assuming our `Data Gathering Framework` cannot/does not get valid info for something... how do we show prioritize how the we task for confirmation from the user?
+Assuming our `Data Gathering Framework` cannot/does not get valid info for something... how do we show prioritize how we ask for inputs from the user?
 
 Ex:
 - Does a `what-is-the-areaCode-for-this-phoneNumber-variable?` task take priority over `how-often-should-we-post-to-{{this}}-platform` task?
