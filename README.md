@@ -35,7 +35,7 @@ const brand = {
         images: {
           image1: {
             src: "https://i.dailymail.co.uk/i/pix/scaled/2015/01/23/24F8A1AC00000578-0-image-a-50_1422015746402.jpg",
-            alt: "someone holding the worlds larget tomato",
+            alt: "someone holding the worlds largest tomato",
             height: "800px",
             width: "1200px"
           }
