@@ -9,21 +9,38 @@ Ex:
 - Content Item (ex: Call to Action)
 - Word (ex: Call)
 
-
-
+Of course this will changed based on the content type.
 
 ## Data Storage Schema
-How we store data
+What is the ideal schema of the stored brand variables?
 
 Ex:
 - Do we `need` a `<title>` for each `webpage`?
 - Do we `need` or `want` a `title` and/or `alt` for every `image`?
-- Do we `want` a `user-who-changed-the-variable` for every `changed-variable`?
 
+```js
+const brand = {
+  offers: {
+    offer1: {
+      name: "Worlds Biggest Tomato",
+      price: "$5,000",
+      media: {
+        images: {
+          image1: {
+            src: "https://i.dailymail.co.uk/i/pix/scaled/2015/01/23/24F8A1AC00000578-0-image-a-50_1422015746402.jpg",
+            alt: "Image 1 Alt",
+            height: "800px",
+            width: "1200px"
+          }
+        }
+      }
+    }
+  }
+}
+```
 
-
-## Data Gathering Framework
-How we collect data
+## Auto-Data Gathering Framework
+How we collect data based on data we have, can infer, etc.
 
 Ex:
 - Can we get a domain from an email?
@@ -32,9 +49,7 @@ Ex:
 - Can we get a range of color schemes from a logo?
 - Can we generate an alt tag from a logo via image-object regocnition AI?
 
-
-
-
+This would prevent the need to ask for the data from the user.
 
 ## User Interface
 ### Tasks
