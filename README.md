@@ -11,6 +11,13 @@ Ex:
 
 Of course this will changed based on the content type.
 
+Might this be broken down into (what we could call) groups?
+
+A 'social media' group, might be in an email signaure... which may be comprised of all links we have on a person...
+A 'name' group might be anywhere... this may comprised of a first, middle, last and nickname...
+
+By grouping varaibles... we can consolidate the framework. This may also make them re-usable across content types and content type variations.
+
 ## Data Storage Schema
 What is the ideal schema of the stored brand variables?
 
