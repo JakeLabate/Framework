@@ -9,14 +9,14 @@ Ex:
 - Content Item (ex: Call to Action)
 - Word (ex: Call)
 
-Of course this will changed based on the content type.
+(Of course this will changed based on the content type.)
+
+Where does generative AI tools (like Dalle or ChatGPT or GPT4 etc etc) play in this? Can we prompt this? What should be templated in not an AI prompt? Do we design prompts for AI? etc etc... getting the 'word' perfect seems like a fools errand when we have access to these generative AI tools that can get pretty damn good at things much larger than the level of the 'word'.
 
 Might this be broken down into (what we could call) groups?
-
-A 'social media' group, might be in an email signaure... which may be comprised of all links we have on a person...
-A 'name' group might be anywhere... this may comprised of a first, middle, last and nickname...
-
-By grouping varaibles... we can consolidate the framework. This may also make them re-usable across content types and content type variations.
+- A 'social media' group, might be in an email signaure... which may be comprised of all links we have on a person...
+- A 'name' group might be anywhere... this may comprised of a first, middle, last and nickname...
+- By grouping varaibles... we can consolidate the framework. This may also make them re-usable across content types and content type variations.
 
 ## Data Storage Schema
 What is the ideal schema of the stored brand variables?
